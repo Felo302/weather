@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Wheater today </title>
+	<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <!--link from googlefont-->
+    <!--and added this in css file to complete the font process. font-family: 'Raleway', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="header"> <!--header is class for css- use '.' to call the class.-->
+        <h1>Today's wheater</h1>
+    </div>
+    <div class="data">
+        <h2 class="box" id="location"></h2>
+        <h2 class="box">Temperature: <samp id='temp'></samp> degress</h2> <!--span id is used to interact with weather.js-->
+        <h2 class="box">Wind <span id="wind"></span> mph</h2>
+        <h2 class="box" id="sky"></h2>
+    </div>
+   
+   
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
